@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./assets/css/vendor/locomotive-scroll.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/vendor/gsap-3.7.1.min.js"></script>
+    <script src="./assets/js/vendor/ScrollTrigger-3.7.1.min.js"></script>
+
+    <style>
+        /*
+        body {
+            background-color: black;
+            font-family: sans-serif;
+            color: #fcfcfc;
+            margin:0;
+            padding:0;
+        }
+        h1 {
+            margin: 0;
+            font-size: 20vw;
+            line-height: 0.9em;
+            text-transform:uppercase;
+            font-weight:300;
+        }
+        .panel {
+            height: 100vh;
+        }
+        .line {
+            width: 100%;
+            max-width: 800px;
+            height: 8px;
+            margin: 0 0 10px 0;
+            position: relative;
+            display: inline-block;
+            background-color: rgba(255,255,255,1);
+        }
+        */
+
+        html,
+        body,
+        .smooth-scroll {
+            /* height:100%; */
+        }
+
+        body {
+            /* width:100%; */
+        }
+
+        .header {
+            color: white;
+            font-size: 50px;
+            /* height: 50vh; */
+        }
+
+        .section {
+            height: 100vh;
+            background: #293744;
+            color: #899eb5;
+        }
+
+        .scene {
+            /* height: 100vh; */
+            width: 100%;
+            background: #EAEAEA;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100%; */
+        }
+
+        .viewer {
+            height: 100vh;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 200px;
+            width: 100%;
+            background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/doodle-sprite.png);
+            background-repeat: no-repeat;
+            background-position: 0 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="smooth-scroll">
+        <header class="header section">
+            <div class="center">&darr;</div>
+        </header>
+        
+        <section class="scene section" id="sticky">
+            <div class="viewer"></div>
+        </section>
+        
+        <section class="section">
+            <div class="center">End</div>
+        </section>
+    </div>
+
+    <!--
+    <div class="smooth-scroll">
+
+        <h1>Start</h1>
+        
+        <div class="panel images">
+            <img src="https://thenewobjectivity.com/CZUDEJLLC/wp-content/uploads/2020/03/Malraux01.jpg" style="width:100vw; height:100vh; object-fit:cover;">
+        </div>
+          
+        <div class="panel images">
+            <img src="https://thenewobjectivity.com/CZUDEJLLC/wp-content/uploads/2020/03/Malraux01.jpg" style="width:100vw; height:100vh; object-fit:cover;">
+        </div>
+        <h1>End</h1>
+       
+    </div>
+    -->
+
+<script src="./assets/js/script2.js"></script>
+
+</body>
+</html>
